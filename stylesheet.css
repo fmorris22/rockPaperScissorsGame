@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Structuring Styles */
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+
+/* Backgroung Styles */
+
+.boxOne {
+    background-color: lightgray;
+    width: 40vh;
+    height: 40vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1em;
+}
+
+.boxTwo {
+    background-color: beige;
+    width: 40vh;
+    height: 40vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1em;
+}
+
+.boxThree {
+    background-color: silver;
+    width: 40vh;
+    height: 40vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 1em;
+}
+
+
+/* Text Styles */
+
+.headingFont {
+    font-family: 'Spectral SC', serif;
+}
+
+.options {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: large;
+}
+
+
+/* Images Styles */
+
+.boxOne img {
+    width: 30vh;
+    margin: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.boxTwo img {
+    height: 20vh;
+    margin: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.boxThree img {
+    width: 30vh;
+    margin: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+/* Button Styles */
+
+.selection {
+    padding: 5px;
+    width: 50%;
+    align-self: center;
+}

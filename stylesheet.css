@@ -7,10 +7,28 @@
 
 /* Structuring Styles */
 
+.pageTitle {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    height: 10vh;
+}
+
+.pageSubTitle {
+    padding-bottom: 10px;
+    height: 5vh;
+    text-align: center;
+}
+
+.main {
+    height: 85vh;
+}
+
 .options {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .box {
@@ -22,33 +40,45 @@
 
 /* Backgroung Styles */
 
+.pageTitle {
+    background-color: #CFD8DF;
+}
+
+.pageSubTitle {
+    background-color: #CFD8DF;
+}
+
+.main {
+    background-color: #79888F;
+}
+
 .boxOne {
-    background-color: lightgray;
+    background-color: #CFD8DF;
     width: 40vh;
     height: 40vh;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: rgb(171, 179, 185);
     padding: 1em;
 }
 
 .boxTwo {
-    background-color: beige;
+    background-color: #CFD8DF;
     width: 40vh;
     height: 40vh;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: rgb(171, 179, 185);
     padding: 1em;
 }
 
 .boxThree {
-    background-color: silver;
+    background-color: #CFD8DF;
     width: 40vh;
     height: 40vh;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: rgb(171, 179, 185);
     padding: 1em;
 }
 
